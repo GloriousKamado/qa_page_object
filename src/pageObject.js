@@ -18,7 +18,7 @@ class PageObject {
 
 class ArticlePage extends PageObject {
   constructor(url, slug) {
-    super(url, slug);
+    super(url);
     this.url = url + slug;
   }
 
